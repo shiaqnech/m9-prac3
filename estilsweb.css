@@ -1,0 +1,201 @@
+
+body{
+    background-image: url("images/background.jpg");
+    background-size: auto;
+    background-attachment: fixed;
+    display: block;
+}
+header{
+    position: relative;
+    color: white;
+    text-align: center;
+    background-image: url("images/headerBackground.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: slategray;
+}
+nav{
+    position: absolute;
+    margin-top: 1%;
+    margin-left:1%;
+    margin-right: 1%;
+    height: 70%;
+    width: 20%;
+    background-color: thistle;
+    
+}
+nav p{
+    font-weight: bold;
+}
+section{
+    position: absolute;
+    margin-top: 1% ;
+    margin-left: 22%;
+    width: 55%;
+    height: 70%;
+    background-color: turquoise;
+}
+
+.article1{
+    background-color: black;
+}
+
+.posRelatiu1{
+    background-color: cornflowerblue;
+    margin-bottom: 10%;
+    position: relative;
+    color: white;
+}
+.posRelatiu2{
+    background-color: darkcyan;
+    margin-bottom: 10%;
+    position: relative;
+    color: white;
+}
+
+.sectionImage1{
+    float: right;
+    background-color:black ;
+    padding: 10px;
+    width:200px;
+    height:100px;
+    transition: width 2s;
+}
+.sectionImage2{
+    float: left;
+    background-color:black ;
+    padding: 10px;
+    width:200px;
+    height:100px;
+    transition: width 2s;
+}
+
+.sectionImage1:hover{
+    width: 300px;
+    box-shadow: 10px 5px 5px white;
+    border: 5px solid white;
+    border-color:white;
+}
+.sectionImage2:hover{
+    width: 300px;
+    box-shadow: 10px 5px 5px white;
+    border: 5px solid white;
+    border-color:white;
+}
+aside{
+    position: absolute;
+    float: left;
+    margin-top: 1%;
+    margin-left: 78.1%;
+    margin-right: 1%;
+    height: 70%;
+    width: 20%;
+    background-color: darkturquoise;
+    float: right;
+}
+
+.dAsideClass1{
+margin-top: -4.5%;
+background-image: url("images/backgroundAside.jpg");
+background-size: 100%;
+background-attachment: fixed;
+width: 100%;
+height: 100%;
+}
+.dAsideClass2{
+background-color: black;
+opacity: 0;
+margin: 0;
+width: 100%;
+height: 100%;
+}
+.dAsideClass2:hover{
+    opacity: 1;
+}
+.dAsideClass2 p{
+    text-align: center;
+}
+.button {
+    position: relative;
+    align-items: center;
+    margin-left: 28%;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: springgreen;    
+}
+
+footer{
+    bottom: 0;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 40%;
+    padding: 3%;
+    width: 92%;
+    background: rgb(22,10,10);
+    background: linear-gradient(90deg, rgba(22,10,10,1) 0%, rgba(85,22,22,1) 15%, rgba(80,30,30,1) 37%, rgba(41,15,15,1) 53%, rgba(84,38,38,1) 78%, rgba(15,3,3,1) 100%);
+}
+
+
+li p{
+    font-family: Arial;
+}
+li a{
+    font-family: Impact;
+    color: royalblue;
+}
+
+
+.box {
+    position: fixed;
+    margin-top: 10%;    
+    margin-left: 78.2%;
+    text-align: center;
+    width: 19.5%;
+    height: 22.6%;
+    border: 3px solid black ;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-weight: normal;
+    font-size: 15px;
+}
+p{
+    color: black;
+}
+
+.box .box-div-1{
+    position: absolute;
+    width: 360px;
+    height: 100%;
+    transition: height 1s;
+}
+.box .box-div-1 img{
+    width: 360px;
+    height: 100%;
+    transition: height 1s;
+}
+.box .box-div-1:hover,.box .box-div-1 img:hover  {
+    height: 70%;    
+}
+.box .box-div-2{
+    text-align: center;
+    margin-top: 28%;
+    height: 50%;
+    width: 100%;
+    background-color:white;
+}
